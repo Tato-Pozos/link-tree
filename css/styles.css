@@ -1,35 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@media (max-width: 767px){
-.uk-button {
-    width: -webkit-fill-available !important;
-}
-}
-body {
+.uk-section {
+  background: url(https://spoton-prod-websites-user-assets.s3.amazonaws.com/static/uploads/mFGM7drT6SWnojSRgmdg_Header2.png) no-repeat scroll 50% 0 / cover rgba(0, 0, 0, 0);
   text-align: center;
 }
 
-.uk-section {
-  background-image: url(https://spoton-prod-websites-user-assets.s3.amazonaws.com/static/uploads/cAzwD0o6SNiXAnH4k7HL_Header2.png) !important;
+.uk-logo {
+  background: url(https://spoton-prod-websites-user-assets.s3.amazonaws.com/static/favicons/y4EYcbgSH8QKbLd9MKSA_Group 68284.png);
 }
 
-.uk-logo{
-background: url(https://spoton-prod-websites-user-assets.s3.amazonaws.com/static/favicons/y4EYcbgSH8QKbLd9MKSA_Group 68284.png);
+.uk-bio {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 20px 20px;
 }
 
-.uk-bio{
-font-family: Poppins;
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 30px;
-display: flex;
-align-items: center;
-text-align: center;
-padding:20px 20px;
-}
-
-.uk-bio h3{
+.uk-bio h3 {
   color: #FFFFFF !important;
 }
 
