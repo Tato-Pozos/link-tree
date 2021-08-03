@@ -13,7 +13,6 @@ body {
   background-image: url(https://spoton-prod-websites-user-assets.s3.amazonaws.com/static/uploads/cAzwD0o6SNiXAnH4k7HL_Header2.png) !important;
 }
 
-/* Hermantown, MN */
 .uk-logo{
 background: url(https://spoton-prod-websites-user-assets.s3.amazonaws.com/static/favicons/y4EYcbgSH8QKbLd9MKSA_Group 68284.png);
 }
@@ -34,24 +33,12 @@ padding:20px 20px;
   color: #FFFFFF !important;
 }
 
-
-.uk-button {
-  line-height: 1.75;
-  min-height: 2.75rem;
-  padding: 0.75rem 1rem;
-  margin-top: 1em;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 50% !important;
-  background-color: rgb(233, 192, 130) !important;
-  color: rgb(255, 255, 255) !important;
-  font-family: 'Poppins', sans-serif;
+.uk-button, .uk-button-primary {
+  min-height: 2.75rem !important;
+  width: 410px !important;
+  background-color: #ffffff !important;
+  color: #080808 !important;
+  font-family: 'Poppins', sans-serif !important;
   font-size: 0.9375rem !important;
-  letter-spacing: 0.0rem !important;
-  border-radius: 1.875rem !important;
-}
-
-.logo-image {
-  margin: 10px 20px 10px 20px;
+  border-radius: 4px !important;
 }
